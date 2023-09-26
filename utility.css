@@ -1,0 +1,150 @@
+/* utility classes */
+@media screen and (max-width: 991px){
+    .bar{
+        display: block;
+        margin: 20px;
+    }
+    .nav-ops{
+    display: none;
+       
+    }
+}
+@media screen and (max-width: 425px) {
+nav{
+    position: static;
+}
+   .container{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+
+   .img{
+    width: 150px;
+    height: 150px;
+   }
+
+
+   .social i {
+    font-size: 25px;
+    padding:5px;
+    height: 35px;
+    width: 35px;
+   }
+
+
+ button {
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+   }
+   .home{
+    width: 100vw;
+    flex-direction: column;
+    font-size: 10px;
+    margin: 10px;
+   }
+    
+.About{
+    font-size: 10px;
+}
+.About h1{
+    margin: 0;
+    font-size: 25px;
+}
+
+.about-container{
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+.about-left{
+    height: 200px;
+    width: 200px;
+}
+.about-right{
+    height: 300px;
+    width: 90%;
+    border: none;
+}
+.about-right h1{
+    font-size: 15px;
+   
+
+}
+.about-right h3{
+    margin: 0;
+}
+
+.contener-projects h1{
+    font-size: 25px;
+
+}
+.content-projects{
+    flex-direction: column;
+    
+
+}
+.content-projects .Amazon{
+    width: 50%;
+    margin: 5px;
+    
+
+}
+.Flipcart{
+    width: 50%;
+    margin: 5px;
+    
+}
+.Netflix{
+    margin: 5px;
+    width: 50%;
+}
+
+.contener-services {
+font-size: 10px;
+}
+.contener-services h1{
+    font-size: 25px;
+    padding: 0;
+}
+.container-content{
+    flex-direction: column;
+
+}
+.web-designer{
+    width: 70%;
+    height: 200px;
+    margin: 5px;
+}
+.web-designer i{
+    font-size: 20px;
+}
+.web-designer button{
+    display: none;
+
+}
+form{
+    width: 90vw;
+}
+.contact-us h1{
+    font-size: 30px;
+
+}
+textarea{
+    width: 100%;
+    margin: 0;
+}
+.contact-us button{
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+}
